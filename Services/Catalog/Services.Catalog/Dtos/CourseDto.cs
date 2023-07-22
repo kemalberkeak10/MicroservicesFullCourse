@@ -5,7 +5,7 @@ using System;
 
 namespace Services.Catalog.Dtos
 {
-    public class CourseDto
+    internal class CourseDto
     {
         public int Id { get; set; }
         public string Name { get; set; }
