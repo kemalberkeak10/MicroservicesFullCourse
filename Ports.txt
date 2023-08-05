@@ -2,4 +2,8 @@ Services
 -catalogApi -> 5011
 -photostockApi -> 5012
 -basketApi -> 5013
+-discountApi -> 5014
 -identityserver-> 5001
+
+Server
+-ip -> 165.232.119.134
