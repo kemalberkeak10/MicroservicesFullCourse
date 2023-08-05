@@ -4,7 +4,9 @@ Services
 -basketApi -> 5013
 -discountApi -> 5014
 -orderApi -> 5015
+-fakePaymentApi -> 5016
 -identityserver-> 5001
+-gateway -> 5000
 
 Server
 -ip -> 165.232.119.134

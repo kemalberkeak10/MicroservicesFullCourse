@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Order.Domain.Core"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Order.Infrastructure", "Services\Order\Services.Order.Infrastructure\Services.Order.Infrastructure.csproj", "{9F8D2191-8276-465C-ADD3-2EFCBAC790FA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FakePayment", "FakePayment", "{5567DE9E-C3FD-4E7B-AE02-E752C880FFFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.FakePayment", "Services\FakePayment\Services.FakePayment\Services.FakePayment.csproj", "{34964A1F-12F9-4021-99E1-D5B600C1E143}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,10 @@ Global
 		{9F8D2191-8276-465C-ADD3-2EFCBAC790FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F8D2191-8276-465C-ADD3-2EFCBAC790FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F8D2191-8276-465C-ADD3-2EFCBAC790FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34964A1F-12F9-4021-99E1-D5B600C1E143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34964A1F-12F9-4021-99E1-D5B600C1E143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34964A1F-12F9-4021-99E1-D5B600C1E143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34964A1F-12F9-4021-99E1-D5B600C1E143}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +126,8 @@ Global
 		{1010B17F-52AC-423E-BAE7-00F8F9AD6FB9} = {13E6D3DA-5E41-43E0-BBAC-094C8387B038}
 		{082D64C9-3CD8-43E7-9EBA-BFC933A4FB32} = {13E6D3DA-5E41-43E0-BBAC-094C8387B038}
 		{9F8D2191-8276-465C-ADD3-2EFCBAC790FA} = {13E6D3DA-5E41-43E0-BBAC-094C8387B038}
+		{5567DE9E-C3FD-4E7B-AE02-E752C880FFFC} = {32747448-0E64-460E-80A2-163ACD859E9C}
+		{34964A1F-12F9-4021-99E1-D5B600C1E143} = {5567DE9E-C3FD-4E7B-AE02-E752C880FFFC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6EA4EF6A-D8F7-454B-9A1C-02C23A563FD5}
