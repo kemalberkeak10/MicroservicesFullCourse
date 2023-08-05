@@ -21,13 +21,18 @@ namespace Services.Order.Domain.OrderAggregate
 
         public IReadOnlyCollection<OrderItem> OrderItems=> _orderItems;
 
-        public Order(Address address, string buyerId, List<OrderItem> orderItems)
+        public Order()
+        {
+
+        }
+        public Order(Address address, string buyerId)
         {
             Address = address;
             CreatedDate = DateTime.Now;
             BuyerId = buyerId;
             _orderItems = new List<OrderItem>();
         }
+
         public void AddOrderItem(string productId, string productName, decimal price,string pictureUrl)
         {
             var existProduct = _orderItems.Any(x => x.ProductId == productId);
