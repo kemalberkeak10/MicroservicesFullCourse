@@ -29,7 +29,7 @@ namespace Services.Discount.Controllers
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id){
-            var discount = await _discountService.GetById(id);
+             var discount = await _discountService.GetById(id);
             return CreateActionResultInstance(discount);
         }
 

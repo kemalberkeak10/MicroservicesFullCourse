@@ -1,0 +1,31 @@
+DDD Domain Driven Desing
+Çok fazla iþ kuralý tanýmlanan projelerde kullanýlmasý karmaþýklýðý azaltýr .(Fatura ödeme)(E-ticaret) Tam tersi durumunda da kullanýlmasý önerilmez.
+
+Bounded Context : Sýnýrlý baðlam
+Gruplanmýþ birbirisiyle iliþkisi olan parçalarýn bir araya gelmesiyle oluþan bir yapýdýr.
+Ör:
+1.Seviye  
+Bounded Context Folder Discount
+Bounded Context Folder Basket
+Bounded Context Folder Order
+
+2.Seviye  
+Bounded Context Class library Discount
+Bounded Context Class library Basket
+Bounded Context Class library Order
+
+3.Seviye  
+Bounded Context Microservice Discount
+Bounded Context Microservice Basket
+Bounded Context Microservice Order
+
+Entity : Kendisine ait bir unique deðeri olan yapý (Product)
+Valuebject : Kendisine ait bir unique deðeri olmayan yapý (Feature height width color)
+Aggregate : Birbirleriyle iliþkili olan entity ve valueobjectlerin bir araya gelmesiyle oluþan yapýdýr.(Category)
+
+
+DDD Properties ve Behavior(BusinessRule) ayný katmanda
+Anemic Domain Model : Sadece propertylerin olduðu bir yapýdýr. BusinessLayerda Business kurallarý gerçekleþir
+
+CQRS : Command Query Responsibility Segregation
+Okuma ve Yazma farklý katmanlarda ve farklý veritabanlarýnda yönetilebilir. Bu sayede cok performanslý bir yapý oluþturulabilir.Veritabaný ayrýlýnca Sýkýntýsý senktron etmek
